@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  geolocator: ^5.3.1
+  android_intent: ^0.3.7+1
 
 dev_dependencies:
   flutter_test:
@@ -20,8 +22,9 @@ flutter:
   uses-material-design: true
 
   assets:
-  - images/
-
+    - images/city_background.jpg
+    - images/homebar.png
+    - images/location_background.jpg
   fonts:
   - family: Spartan MB
     fonts:
